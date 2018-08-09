@@ -1,0 +1,24 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+@using Scheduler_Copy.Models.Pages
+@model Scheduler_Copy.Models.ViewModels.StandardPageViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@Model.CurrentPage.Name</title>
+</head>
+<body>
+    <h1>@Html.PropertyFor(m => m.CurrentPage.Name, new { customTag = "span" })</h1>
+
+    @Html.PropertyFor(m => m.CurrentPage.StandardMainBody)
+
+
+    @foreach (StandardPage item in Model.ListOfArticles)
+    {
+        <h3>@Html.ContentLink(item) <small>by @item.CreatedBy</small></h3>
+    }
+</body>
+</html>
+
+

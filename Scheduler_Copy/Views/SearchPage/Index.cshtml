@@ -1,0 +1,27 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+@model Scheduler_Copy.Models.ViewModels.PageViewModel<Scheduler_Copy.Models.Pages.SearchPage>
+
+
+
+
+@Html.PropertyFor(m=>m.CurrentPage.Contain)
+
+Name: <input type="text" id="myText" value="">
+
+<p>Click the button to change the value of the text field.</p>
+
+<button onclick="myFunction( )">Enter the word to be searched</button>
+
+<script>
+    if (document.getElementById("myText").value == "") {
+        function myFunction() {
+            document.getElementById("myText").value = "Johnny Bravo";
+        }
+    }
+    else {
+        function myFunction() {
+            document.getElementById("myText").value = "John";
+        }
+    }
+</script>

@@ -1,0 +1,10 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+@model Scheduler_Copy.Models.ViewModels.PageViewModel<Scheduler_Copy.Models.Pages.StartPage>
+<div>
+    @Html.PropertyFor(m => m.CurrentPage.StartHeading)
+</div>
+
+<div>
+    @Html.PropertyFor(m => m.CurrentPage.StartMainBody)
+</div>

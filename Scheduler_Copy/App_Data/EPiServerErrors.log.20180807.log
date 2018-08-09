@@ -1,0 +1,143 @@
+﻿2018-08-07 12:37:55,778 [6] ERROR EPiServer.Global: Unhandled exception in ASP.NET
+System.Web.HttpException (0x80004005): The file '/link/43F936C99B234EA397B261C538AD07C9.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Routing.PageRouteHandler.GetHttpHandler(RequestContext requestContext)
+   at EPiServer.Web.Routing.Internal.MultiplexingRouteHandler.GetHttpHandler(RequestContext requestContext)
+   at System.Web.Routing.UrlRoutingModule.PostResolveRequestCache(HttpContextBase context)
+   at System.Web.Routing.UrlRoutingModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.Web.HttpException (0x80004005): The file '/link/43F936C99B234EA397B261C538AD07C9.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Routing.PageRouteHandler.GetHttpHandler(RequestContext requestContext)
+   at EPiServer.Web.Routing.Internal.MultiplexingRouteHandler.GetHttpHandler(RequestContext requestContext)
+   at System.Web.Routing.UrlRoutingModule.PostResolveRequestCache(HttpContextBase context)
+   at System.Web.Routing.UrlRoutingModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-08-07 12:52:34,699 [7] ERROR EPiServer.Global: Unhandled exception in ASP.NET
+System.Web.HttpException (0x80004005): The file '/link/43F936C99B234EA397B261C538AD07C9.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Routing.PageRouteHandler.GetHttpHandler(RequestContext requestContext)
+   at EPiServer.Web.Routing.Internal.MultiplexingRouteHandler.GetHttpHandler(RequestContext requestContext)
+   at System.Web.Routing.UrlRoutingModule.PostResolveRequestCache(HttpContextBase context)
+   at System.Web.Routing.UrlRoutingModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.Web.HttpException (0x80004005): The file '/link/43F936C99B234EA397B261C538AD07C9.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Routing.PageRouteHandler.GetHttpHandler(RequestContext requestContext)
+   at EPiServer.Web.Routing.Internal.MultiplexingRouteHandler.GetHttpHandler(RequestContext requestContext)
+   at System.Web.Routing.UrlRoutingModule.PostResolveRequestCache(HttpContextBase context)
+   at System.Web.Routing.UrlRoutingModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-08-07 12:53:34,582 [9] ERROR EPiServer.DataAbstraction.ScheduledJob: Job Scheduler_Copy.Business.CreatePages failed for the job 'CreatePages' with jobId ='7b107075-16dc-4d0a-bafd-b2884f3771b5' 
+System.ArgumentNullException: The provided content link does not have a value.
+Parameter name: contentLink
+   at EPiServer.Core.Internal.DefaultContentLoader.Get[T](ContentReference contentLink, LoaderOptions loaderOptions)
+   at EPiServer.Core.Internal.DefaultContentLoader.Get[T](ContentReference contentLink)
+   at EPiServer.Core.Internal.DefaultContentRepository.Get[T](ContentReference contentLink)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink, Int32 contentTypeID, CultureInfo language)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink, CultureInfo language)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink)
+   at Scheduler_Copy.Business.CreatePages.Execute() in C:\Users\arush.kumar\source\repos\Scheduler_Copy\Scheduler_Copy\Business\CreatePages.cs:line 42
+   at EPiServer.Scheduler.Internal.DefaultScheduledJobExecutor.<Execute>d__31.MoveNext()
+System.ArgumentNullException: The provided content link does not have a value.
+Parameter name: contentLink
+   at EPiServer.Core.Internal.DefaultContentLoader.Get[T](ContentReference contentLink, LoaderOptions loaderOptions)
+   at EPiServer.Core.Internal.DefaultContentLoader.Get[T](ContentReference contentLink)
+   at EPiServer.Core.Internal.DefaultContentRepository.Get[T](ContentReference contentLink)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink, Int32 contentTypeID, CultureInfo language)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink, CultureInfo language)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink)
+   at Scheduler_Copy.Business.CreatePages.Execute() in C:\Users\arush.kumar\source\repos\Scheduler_Copy\Scheduler_Copy\Business\CreatePages.cs:line 42
+   at EPiServer.Scheduler.Internal.DefaultScheduledJobExecutor.<Execute>d__31.MoveNext()
+2018-08-07 12:53:36,500 [9] ERROR EPiServer.DataAbstraction.ScheduledJob: Job Scheduler_Copy.Business.CreatePages failed for the job 'CreatePages' with jobId ='7b107075-16dc-4d0a-bafd-b2884f3771b5' 
+System.ArgumentNullException: The provided content link does not have a value.
+Parameter name: contentLink
+   at EPiServer.Core.Internal.DefaultContentLoader.Get[T](ContentReference contentLink, LoaderOptions loaderOptions)
+   at EPiServer.Core.Internal.DefaultContentLoader.Get[T](ContentReference contentLink)
+   at EPiServer.Core.Internal.DefaultContentRepository.Get[T](ContentReference contentLink)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink, Int32 contentTypeID, CultureInfo language)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink, CultureInfo language)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink)
+   at Scheduler_Copy.Business.CreatePages.Execute() in C:\Users\arush.kumar\source\repos\Scheduler_Copy\Scheduler_Copy\Business\CreatePages.cs:line 42
+   at EPiServer.Scheduler.Internal.DefaultScheduledJobExecutor.<Execute>d__31.MoveNext()
+System.ArgumentNullException: The provided content link does not have a value.
+Parameter name: contentLink
+   at EPiServer.Core.Internal.DefaultContentLoader.Get[T](ContentReference contentLink, LoaderOptions loaderOptions)
+   at EPiServer.Core.Internal.DefaultContentLoader.Get[T](ContentReference contentLink)
+   at EPiServer.Core.Internal.DefaultContentRepository.Get[T](ContentReference contentLink)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink, Int32 contentTypeID, CultureInfo language)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink, CultureInfo language)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink)
+   at Scheduler_Copy.Business.CreatePages.Execute() in C:\Users\arush.kumar\source\repos\Scheduler_Copy\Scheduler_Copy\Business\CreatePages.cs:line 42
+   at EPiServer.Scheduler.Internal.DefaultScheduledJobExecutor.<Execute>d__31.MoveNext()
+2018-08-07 12:54:16,147 [21] ERROR EPiServer.DataAbstraction.ScheduledJob: Job Scheduler_Copy.Business.CreatePages failed for the job 'CreatePages' with jobId ='7b107075-16dc-4d0a-bafd-b2884f3771b5' 
+System.ArgumentNullException: The provided content link does not have a value.
+Parameter name: contentLink
+   at EPiServer.Core.Internal.DefaultContentLoader.Get[T](ContentReference contentLink, LoaderOptions loaderOptions)
+   at EPiServer.Core.Internal.DefaultContentLoader.Get[T](ContentReference contentLink)
+   at EPiServer.Core.Internal.DefaultContentRepository.Get[T](ContentReference contentLink)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink, Int32 contentTypeID, CultureInfo language)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink, CultureInfo language)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink)
+   at Scheduler_Copy.Business.CreatePages.Execute() in C:\Users\arush.kumar\source\repos\Scheduler_Copy\Scheduler_Copy\Business\CreatePages.cs:line 42
+   at EPiServer.Scheduler.Internal.DefaultScheduledJobExecutor.<Execute>d__31.MoveNext()
+System.ArgumentNullException: The provided content link does not have a value.
+Parameter name: contentLink
+   at EPiServer.Core.Internal.DefaultContentLoader.Get[T](ContentReference contentLink, LoaderOptions loaderOptions)
+   at EPiServer.Core.Internal.DefaultContentLoader.Get[T](ContentReference contentLink)
+   at EPiServer.Core.Internal.DefaultContentRepository.Get[T](ContentReference contentLink)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink, Int32 contentTypeID, CultureInfo language)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink, CultureInfo language)
+   at EPiServer.Core.Internal.DefaultContentRepository.GetDefault[T](ContentReference parentLink)
+   at Scheduler_Copy.Business.CreatePages.Execute() in C:\Users\arush.kumar\source\repos\Scheduler_Copy\Scheduler_Copy\Business\CreatePages.cs:line 42
+   at EPiServer.Scheduler.Internal.DefaultScheduledJobExecutor.<Execute>d__31.MoveNext()
+2018-08-07 12:56:44,450 [22] ERROR EPiServer.DataAbstraction.ScheduledJob: Job Scheduler_Copy.Business.CreatePages failed for the job 'CreatePages' with jobId ='7b107075-16dc-4d0a-bafd-b2884f3771b5' 
+EPiServer.Core.AccessDeniedException: Access was denied to content 1. The required access level was "Create, Publish".
+   at EPiServer.Core.Internal.DefaultContentRepository.CheckSufficientAccess(ContentProvider provider, ContentReference contentLink, AccessLevel access)
+   at EPiServer.Core.Internal.DefaultContentRepository.Save(IContent content, SaveAction action, AccessLevel access)
+   at EPiServer.IContentRepositoryExtension.Save(IContentRepository repository, IContent content, SaveAction action)
+   at Scheduler_Copy.Business.CreatePages.Execute() in C:\Users\arush.kumar\source\repos\Scheduler_Copy\Scheduler_Copy\Business\CreatePages.cs:line 48
+   at EPiServer.Scheduler.Internal.DefaultScheduledJobExecutor.<Execute>d__31.MoveNext()
+EPiServer.Core.AccessDeniedException: Access was denied to content 1. The required access level was "Create, Publish".
+   at EPiServer.Core.Internal.DefaultContentRepository.CheckSufficientAccess(ContentProvider provider, ContentReference contentLink, AccessLevel access)
+   at EPiServer.Core.Internal.DefaultContentRepository.Save(IContent content, SaveAction action, AccessLevel access)
+   at EPiServer.IContentRepositoryExtension.Save(IContentRepository repository, IContent content, SaveAction action)
+   at Scheduler_Copy.Business.CreatePages.Execute() in C:\Users\arush.kumar\source\repos\Scheduler_Copy\Scheduler_Copy\Business\CreatePages.cs:line 48
+   at EPiServer.Scheduler.Internal.DefaultScheduledJobExecutor.<Execute>d__31.MoveNext()
+2018-08-07 13:52:59,403 [13] ERROR EPiServer.DataAbstraction.ScheduledJob: Job Scheduler_Copy.Business.CreatePages failed for the job 'CreatePages' with jobId ='7b107075-16dc-4d0a-bafd-b2884f3771b5' 
+EPiServer.Core.AccessDeniedException: Access was denied to content 1. The required access level was "Create, Publish".
+   at EPiServer.Core.Internal.DefaultContentRepository.CheckSufficientAccess(ContentProvider provider, ContentReference contentLink, AccessLevel access)
+   at EPiServer.Core.Internal.DefaultContentRepository.Save(IContent content, SaveAction action, AccessLevel access)
+   at EPiServer.IContentRepositoryExtension.Save(IContentRepository repository, IContent content, SaveAction action)
+   at Scheduler_Copy.Business.CreatePages.Execute() in C:\Users\arush.kumar\source\repos\Scheduler_Copy\Scheduler_Copy\Business\CreatePages.cs:line 46
+   at EPiServer.Scheduler.Internal.DefaultScheduledJobExecutor.<Execute>d__31.MoveNext()
+EPiServer.Core.AccessDeniedException: Access was denied to content 1. The required access level was "Create, Publish".
+   at EPiServer.Core.Internal.DefaultContentRepository.CheckSufficientAccess(ContentProvider provider, ContentReference contentLink, AccessLevel access)
+   at EPiServer.Core.Internal.DefaultContentRepository.Save(IContent content, SaveAction action, AccessLevel access)
+   at EPiServer.IContentRepositoryExtension.Save(IContentRepository repository, IContent content, SaveAction action)
+   at Scheduler_Copy.Business.CreatePages.Execute() in C:\Users\arush.kumar\source\repos\Scheduler_Copy\Scheduler_Copy\Business\CreatePages.cs:line 46
+   at EPiServer.Scheduler.Internal.DefaultScheduledJobExecutor.<Execute>d__31.MoveNext()
